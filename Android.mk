@@ -106,7 +106,7 @@ LOCAL_MODULE_KBUILD_NAME  := wlan.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(TARGET_OUT)/lib/modules/$(WLAN_CHIPSET)
-include $(DLKM_DIR)/AndroidKernelModule.mk
+include $(LOCAL_PATH)/AndroidKernelModule.mk
 ###########################################################
 
 #Create symbolic link
